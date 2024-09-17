@@ -1,0 +1,193 @@
+$date
+	Tue Sep 17 13:19:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Roy_autosynthesys_tb $end
+$var wire 4 ! X [3:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$scope module UUT $end
+$var wire 4 $ A [3:0] $end
+$var wire 4 % B [3:0] $end
+$var wire 1 & X3 $end
+$var wire 4 ' X1 [3:0] $end
+$var wire 4 ( X [3:0] $end
+$var wire 4 ) P [3:0] $end
+$var wire 1 * H__2 $end
+$var wire 1 + H__1 $end
+$var wire 4 , H1 [3:0] $end
+$var wire 4 - H [3:0] $end
+$var parameter 32 . N $end
+$scope module I1 $end
+$var wire 1 / A $end
+$var wire 1 0 B $end
+$var wire 1 1 H $end
+$var wire 1 2 P $end
+$upscope $end
+$scope module I10 $end
+$var wire 1 3 H_0 $end
+$var wire 1 4 H_1 $end
+$var wire 1 5 X $end
+$var wire 1 6 X_0 $end
+$var wire 1 7 X_1 $end
+$var wire 1 8 w1 $end
+$upscope $end
+$scope module I11 $end
+$var wire 1 * H $end
+$var wire 1 9 H_0 $end
+$var wire 1 : H_1 $end
+$var wire 1 ; H_2 $end
+$var wire 1 & X $end
+$var wire 1 < X_0 $end
+$var wire 1 = X_1 $end
+$var wire 1 > w1 $end
+$upscope $end
+$scope module I12 $end
+$var wire 1 ? H_0 $end
+$var wire 1 @ H_1 $end
+$var wire 1 A X $end
+$var wire 1 & X_0 $end
+$var wire 1 B X_1 $end
+$var wire 1 C w1 $end
+$upscope $end
+$scope module I2 $end
+$var wire 1 D A $end
+$var wire 1 E B $end
+$var wire 1 F H $end
+$var wire 1 G P $end
+$upscope $end
+$scope module I3 $end
+$var wire 1 H A $end
+$var wire 1 I B $end
+$var wire 1 J H $end
+$var wire 1 K P $end
+$upscope $end
+$scope module I4 $end
+$var wire 1 L A $end
+$var wire 1 M B $end
+$var wire 1 N H $end
+$var wire 1 O P $end
+$upscope $end
+$scope module I5 $end
+$var wire 1 + H $end
+$var wire 1 P H_0 $end
+$var wire 1 Q H_1 $end
+$var wire 1 R P_1 $end
+$var wire 1 S X $end
+$upscope $end
+$scope module I6 $end
+$var wire 1 T H $end
+$var wire 1 U H_0 $end
+$var wire 1 V H_1 $end
+$var wire 1 W P_1 $end
+$var wire 1 X X $end
+$upscope $end
+$scope module I7 $end
+$var wire 1 Y H $end
+$var wire 1 Z H_0 $end
+$var wire 1 [ H_1 $end
+$var wire 1 \ P_1 $end
+$var wire 1 ] X $end
+$upscope $end
+$scope module I8 $end
+$var wire 1 ^ H $end
+$var wire 1 _ H_0 $end
+$var wire 1 ` H_1 $end
+$var wire 1 a P_1 $end
+$var wire 1 b X $end
+$upscope $end
+$scope module I9 $end
+$var wire 1 c H_0 $end
+$var wire 1 d H_1 $end
+$var wire 1 e X $end
+$var wire 1 f X_0 $end
+$var wire 1 g X_1 $end
+$var wire 1 h w1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 .
+$end
+#0
+$dumpvars
+0h
+zg
+0f
+0e
+0d
+0c
+1b
+0a
+0`
+1_
+0^
+1]
+1\
+1[
+0Z
+1Y
+0X
+1W
+0V
+1U
+0T
+0S
+0R
+0Q
+0P
+1O
+1N
+1M
+0L
+0K
+0J
+0I
+0H
+1G
+1F
+0E
+1D
+0C
+0B
+1A
+0@
+0?
+0>
+1=
+1<
+z;
+0:
+09
+08
+07
+16
+15
+04
+13
+12
+01
+10
+1/
+b1010 -
+bz010 ,
+0+
+0*
+b1011 )
+b1100 (
+b110z '
+1&
+b1001 %
+b11 $
+b1001 #
+b11 "
+b1100 !
+$end
+#100
