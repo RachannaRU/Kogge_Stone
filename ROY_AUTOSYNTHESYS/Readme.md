@@ -10,12 +10,22 @@ This contains the verilog implementation of the Roy Autosynthesys archetecture o
 ### Layer2.v
 * It contains the implementation of the White Square box.
   
-### LAYER1.v
+### LAYER3.v
 * It contains the implementation of the White Circle.
 
-### Layer2.v
+### Layer4.v
 * It contains the implementation of the Grey Circle.
 
+### Roy_Autosynthesys.v
+* It is the top module.
+
+### Roy_autosynthesys_tb
+* It is the simple test bench for the top module.
+
+### Roy_autosynthesys_tb.vcd
+* It is the vcd file of the test bench.
+* You can use it and see the simulation results using GTKWAVE.
+  
 ## Contributing
 
 If you'd like to contribute to this project, please follow these guidelines:
