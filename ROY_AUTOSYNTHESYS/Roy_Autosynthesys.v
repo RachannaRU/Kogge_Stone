@@ -1,10 +1,11 @@
-`include "LAYER1.v"
-`include "LAYER2.v"
-`include "LAYER3.v"
-`include "LAYER4.v"
+`include "Grey_Square.v"
+`include "White_Square.v"
+`include "Grey_Circle.v"
+`include "White_Circle.v"
 
 module Roy_Autosynthesys(
     output [N-1:0]X,
+    output Cout,
     input [N-1:0]A,B
 );
 //initial assign X=0;
@@ -26,11 +27,15 @@ White_Square I6 (X1[1],H1[0],H[1],P[0],H[0]);
 White_Square I7 (X1[2],H1[1],H[2],P[1],H[1]);
 White_Square I8 (X1[3],H1[2],H[3],P[2],H[2]);
 
-Grey_Circle  I9  (X[1],X1[1],H1[0],X1[0],1'b0);
-Grey_Circle  I10 (X[2],X1[2],H1[1],X[1],H1[0]);
+Grey_Circle  I9  (X[1],X1[1],H1[0],X[0]);
+White_Circle I11 (X3,H__2,X1[3],H[2],X1[2],H[1]);
+Grey_Circle  I10 (X[2],X1[2],H1[1],X[1]);
 
-White_Circle I11 (X3,H__2,X1[3],H[2],X1[2],H1[2]);
 
-Grey_Circle  I12 (X[3],X3,H1[2],X[1],H1[0]);
-//Grey_Circle  I13 (X[2],X1[2],H1[1],X[3],H1[0]);
+
+Grey_Circle  I12 (X[3],X3,H__2,X[1]);
+
+
+assign Cout = (X[3]&H[3])^P[3];
+
 endmodule

@@ -1,6 +1,6 @@
 module Grey_Circle(
     output X,
-    input X_0,H_0,X_1,H_1
+    input X_0,H_0,X_1
 );
 
 wire w1;
