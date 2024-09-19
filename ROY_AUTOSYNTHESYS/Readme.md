@@ -6,10 +6,10 @@ This repository contains the following files:
 
 ### Core Components
 
-* **LAYER1.v:** Implements the Grey Square box, which represents the initial stage of the addition process.
-* **LAYER2.v:** Implements the White Square box, responsible for processing intermediate results.
-* **LAYER3.v:** Implements the White Circle, which handles Sum propagation.
-* **LAYER4.v:** Implements the Grey Circle, representing the final stage of the addition process.
+* **Grey_Square.v:** Implements the Grey Square box, which represents the initial stage of the addition process.
+* **White_Square.v:** Implements the White Square box, responsible for processing intermediate results.
+* **White_Circle.v:** Implements the White Circle, which handles Sum propagation.
+* **Grey_Circle.v:** Implements the Grey Circle, representing the final stage of the addition process.
 
 ### Top-Level Modules
 
